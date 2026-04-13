@@ -8,7 +8,7 @@ const ChildComponent1 = ({setSelectedOption}) => {
     <div className='child1'>
         <h1>Child Component 1</h1>
         <button onClick={hendleClick}>Option 1</button>
-      
+    
     </div>
   )
 }

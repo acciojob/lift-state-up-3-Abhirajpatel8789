@@ -5,7 +5,7 @@ import ChildComponent1 from "./ChildComponent1";
 import ChildComponent2 from "./ChildComponent2";
 
 const App = () => {
-  let [selectedOption,setSelectedOption] = useState()
+  let [selectedOption,setSelectedOption] = useState("")
   return (
     <div className="parent">
         {/* Do not remove the main div */}
