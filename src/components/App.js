@@ -10,8 +10,8 @@ const App = () => {
     <div className="parent">
         {/* Do not remove the main div */}
         <h1>Parent Component</h1>
-        <ChildComponent1 h2="Child Component 1" setSelectedOption={setSelectedOption}/>
-        <ChildComponent2 h2="Child Component 2" setSelectedOption={setSelectedOption}/>
+        <ChildComponent1  setSelectedOption={setSelectedOption}/>
+        <ChildComponent2 setSelectedOption={setSelectedOption}/>
         <p>Selected Option: {selectedOption}</p>
     </div>
   )
