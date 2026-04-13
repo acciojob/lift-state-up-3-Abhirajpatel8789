@@ -8,6 +8,7 @@ const ChildComponent2 = ({h2,setSelectedOption}) => {
     <div className='child2'>
         <h2>{h2}</h2>
         <button onClick={hendleClick}>Option 2</button>
+        
       
     </div>
   )
