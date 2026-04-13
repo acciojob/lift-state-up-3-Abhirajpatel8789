@@ -1,1 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parent{
+    background-color: #73ff00;
+    padding: 20px;
+}
 
+.child1{
+    background-color: #cd5d1a;
+    padding: 20px;
+}
+.child2{
+    background-color: #fcce00;
+    padding: 20px;
+}
+p{
+    margin-top: 20px;
+}
+button{
+    margin-top: 20px;
+}
