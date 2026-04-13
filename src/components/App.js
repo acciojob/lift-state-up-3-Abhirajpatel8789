@@ -6,6 +6,7 @@ import ChildComponent2 from "./ChildComponent2.js";
 
 const App = () => {
   let [selectedOption,setSelectedOption] = useState("")
+  
   return (
     <div className="parent">
         {/* Do not remove the main div */}
