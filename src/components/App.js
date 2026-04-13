@@ -1,8 +1,8 @@
 
 import React, { useState } from "react";
 import './../styles/App.css';
-import ChildComponent1 from "./ChildComponent1";
-import ChildComponent2 from "./ChildComponent2";
+import ChildComponent1 from "./ChildComponent1.js";
+import ChildComponent2 from "./ChildComponent2.js";
 
 const App = () => {
   let [selectedOption,setSelectedOption] = useState("")
